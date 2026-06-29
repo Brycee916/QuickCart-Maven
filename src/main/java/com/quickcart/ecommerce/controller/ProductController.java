@@ -21,7 +21,8 @@ public class ProductController {
         productsList.add(headphones);
 
         productModel.addAttribute("products", productsList);
-        return "products-view";
+        //return "products-view"; do this for jsp
+        return "products" //do this for thymeleaf
     }
 
 }
